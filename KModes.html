@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5279ad7e426e450d8f67e08b1463d6ab {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5279ad7e426e450d8f67e08b1463d6ab" ></div>
+        
+</body>
+<script>    
+    
+            var map_5279ad7e426e450d8f67e08b1463d6ab = L.map(
+                "map_5279ad7e426e450d8f67e08b1463d6ab",
+                {
+                    center: [10.7758439, 106.7017555],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_05be88305c5e45158fafd22b1183b871 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+            var circle_marker_4546a749bec64f3fb2f335be52223842 = L.circleMarker(
+                [10.766700000000071, 106.70647000000008],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_4f980f178a1c48ef9b4b5e5fe1399b5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5a4a42139374e1d9c48a401cd7d9720 = $(`<div id="html_e5a4a42139374e1d9c48a401cd7d9720" style="width: 100.0%; height: 100.0%;">District 4 - Cluster 2</div>`)[0];
+            popup_4f980f178a1c48ef9b4b5e5fe1399b5d.setContent(html_e5a4a42139374e1d9c48a401cd7d9720);
+        
+
+        circle_marker_4546a749bec64f3fb2f335be52223842.bindPopup(popup_4f980f178a1c48ef9b4b5e5fe1399b5d)
+        ;
+
+        
+    
+    
+            var circle_marker_5e1c4ed423b44bfd94733d000bf034b3 = L.circleMarker(
+                [10.801484, 106.654077],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_b4e5e3f2e3d646aaa78582b9fa57ba1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9948ab692fd541f9ac4045a59ce29dd4 = $(`<div id="html_9948ab692fd541f9ac4045a59ce29dd4" style="width: 100.0%; height: 100.0%;">Tan Binh District - Cluster 2</div>`)[0];
+            popup_b4e5e3f2e3d646aaa78582b9fa57ba1f.setContent(html_9948ab692fd541f9ac4045a59ce29dd4);
+        
+
+        circle_marker_5e1c4ed423b44bfd94733d000bf034b3.bindPopup(popup_b4e5e3f2e3d646aaa78582b9fa57ba1f)
+        ;
+
+        
+    
+    
+            var circle_marker_ece373e6fe2f4c74b6d24540b10052fe = L.circleMarker(
+                [10.795650000000023, 106.67464000000007],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_888bdf8036de47d88aa23ec81efe35a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6137618eff524fcfac06d35c2a089334 = $(`<div id="html_6137618eff524fcfac06d35c2a089334" style="width: 100.0%; height: 100.0%;">Phu Nhuan District - Cluster 2</div>`)[0];
+            popup_888bdf8036de47d88aa23ec81efe35a8.setContent(html_6137618eff524fcfac06d35c2a089334);
+        
+
+        circle_marker_ece373e6fe2f4c74b6d24540b10052fe.bindPopup(popup_888bdf8036de47d88aa23ec81efe35a8)
+        ;
+
+        
+    
+    
+            var circle_marker_53be3dc29063427e956db7f1307d91e2 = L.circleMarker(
+                [10.41566000000006, 106.96130000000005],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_cec70dc854f2439cb9925b305a602d09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_314db1b3aafc408892ff71a907064709 = $(`<div id="html_314db1b3aafc408892ff71a907064709" style="width: 100.0%; height: 100.0%;">Can Gio District - Cluster 0</div>`)[0];
+            popup_cec70dc854f2439cb9925b305a602d09.setContent(html_314db1b3aafc408892ff71a907064709);
+        
+
+        circle_marker_53be3dc29063427e956db7f1307d91e2.bindPopup(popup_cec70dc854f2439cb9925b305a602d09)
+        ;
+
+        
+    
+    
+            var circle_marker_c10f91a0d6ff4430a85ae9329f71b712 = L.circleMarker(
+                [10.977340000000027, 106.50223000000005],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_ed5002ef6bd3404ea0021c269425884a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6ff5380f8644e4182718080f4386fb0 = $(`<div id="html_b6ff5380f8644e4182718080f4386fb0" style="width: 100.0%; height: 100.0%;">Cu Chi District - Cluster 0</div>`)[0];
+            popup_ed5002ef6bd3404ea0021c269425884a.setContent(html_b6ff5380f8644e4182718080f4386fb0);
+        
+
+        circle_marker_c10f91a0d6ff4430a85ae9329f71b712.bindPopup(popup_ed5002ef6bd3404ea0021c269425884a)
+        ;
+
+        
+    
+    
+            var circle_marker_bc8ea6dd26c14178a713ada099e7123b = L.circleMarker(
+                [10.768830000000037, 106.66599000000008],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_6e138aab2fc94c6c8a8207590dc7ed64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c2b5d7e22bd40d9993e4d821776fc9e = $(`<div id="html_6c2b5d7e22bd40d9993e4d821776fc9e" style="width: 100.0%; height: 100.0%;">District 10 - Cluster 2</div>`)[0];
+            popup_6e138aab2fc94c6c8a8207590dc7ed64.setContent(html_6c2b5d7e22bd40d9993e4d821776fc9e);
+        
+
+        circle_marker_bc8ea6dd26c14178a713ada099e7123b.bindPopup(popup_6e138aab2fc94c6c8a8207590dc7ed64)
+        ;
+
+        
+    
+    
+            var circle_marker_fc1af815924a4aae8d6e0ff790a84a72 = L.circleMarker(
+                [10.763160000000028, 106.64314000000007],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_159f823fd3e1412b814df0a36dad6da0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30559c85dfa446558bf3a31a2f89629d = $(`<div id="html_30559c85dfa446558bf3a31a2f89629d" style="width: 100.0%; height: 100.0%;">District 11 - Cluster 0</div>`)[0];
+            popup_159f823fd3e1412b814df0a36dad6da0.setContent(html_30559c85dfa446558bf3a31a2f89629d);
+        
+
+        circle_marker_fc1af815924a4aae8d6e0ff790a84a72.bindPopup(popup_159f823fd3e1412b814df0a36dad6da0)
+        ;
+
+        
+    
+    
+            var circle_marker_0ac05e5d3ada468abed6dc8b339815b6 = L.circleMarker(
+                [10.738291, 106.718292],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_06127fd73dcf4ad08c4b3c64cec2f5c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afda2c035b26496fa30bdb2e477c4bf6 = $(`<div id="html_afda2c035b26496fa30bdb2e477c4bf6" style="width: 100.0%; height: 100.0%;">District 7 - Cluster 2</div>`)[0];
+            popup_06127fd73dcf4ad08c4b3c64cec2f5c4.setContent(html_afda2c035b26496fa30bdb2e477c4bf6);
+        
+
+        circle_marker_0ac05e5d3ada468abed6dc8b339815b6.bindPopup(popup_06127fd73dcf4ad08c4b3c64cec2f5c4)
+        ;
+
+        
+    
+    
+            var circle_marker_3a02e76f33574c569de18986d73be6ff = L.circleMarker(
+                [10.755690000000072, 106.66637000000009],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_88e003002dec4223bca573cde0e55981 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_004e0515a1c2415d869bf31bbc00638b = $(`<div id="html_004e0515a1c2415d869bf31bbc00638b" style="width: 100.0%; height: 100.0%;">District 5 - Cluster 1</div>`)[0];
+            popup_88e003002dec4223bca573cde0e55981.setContent(html_004e0515a1c2415d869bf31bbc00638b);
+        
+
+        circle_marker_3a02e76f33574c569de18986d73be6ff.bindPopup(popup_88e003002dec4223bca573cde0e55981)
+        ;
+
+        
+    
+    
+            var circle_marker_d4616838ffee4a0cba2148eab1243ca6 = L.circleMarker(
+                [10.775650000000041, 106.68672000000004],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_6409a2ad5f2441d49ff160a1c7307560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_452a173576d54bcea5af31084befb5a1 = $(`<div id="html_452a173576d54bcea5af31084befb5a1" style="width: 100.0%; height: 100.0%;">District 3 - Cluster 2</div>`)[0];
+            popup_6409a2ad5f2441d49ff160a1c7307560.setContent(html_452a173576d54bcea5af31084befb5a1);
+        
+
+        circle_marker_d4616838ffee4a0cba2148eab1243ca6.bindPopup(popup_6409a2ad5f2441d49ff160a1c7307560)
+        ;
+
+        
+    
+    
+            var circle_marker_db92716da85246ed90fa06781f43dcf4 = L.circleMarker(
+                [10.820050000000037, 106.83182000000005],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_af09011f679b4beda5ea802e5b177e63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55e5201becaf4f648c806e060af40869 = $(`<div id="html_55e5201becaf4f648c806e060af40869" style="width: 100.0%; height: 100.0%;">District 9 - Cluster 0</div>`)[0];
+            popup_af09011f679b4beda5ea802e5b177e63.setContent(html_55e5201becaf4f648c806e060af40869);
+        
+
+        circle_marker_db92716da85246ed90fa06781f43dcf4.bindPopup(popup_af09011f679b4beda5ea802e5b177e63)
+        ;
+
+        
+    
+    
+            var circle_marker_474ac2fccde94ccf9ac90354b210ab2a = L.circleMarker(
+                [10.679220000000043, 106.57654000000008],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_cc4be2d5dd2f4488be17fa46691c18dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_530356585d794797a96d2b5be924d635 = $(`<div id="html_530356585d794797a96d2b5be924d635" style="width: 100.0%; height: 100.0%;">Binh Chanh District - Cluster 0</div>`)[0];
+            popup_cc4be2d5dd2f4488be17fa46691c18dd.setContent(html_530356585d794797a96d2b5be924d635);
+        
+
+        circle_marker_474ac2fccde94ccf9ac90354b210ab2a.bindPopup(popup_cc4be2d5dd2f4488be17fa46691c18dd)
+        ;
+
+        
+    
+    
+            var circle_marker_3c8ec53497514160bc89602eea87103e = L.circleMarker(
+                [10.791990000000055, 106.74985000000004],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_64cd9b5a91f74beea87337ba005664d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_feb73aca66374cdd8052c7c9132cc28c = $(`<div id="html_feb73aca66374cdd8052c7c9132cc28c" style="width: 100.0%; height: 100.0%;">District 2 - Cluster 0</div>`)[0];
+            popup_64cd9b5a91f74beea87337ba005664d4.setContent(html_feb73aca66374cdd8052c7c9132cc28c);
+        
+
+        circle_marker_3c8ec53497514160bc89602eea87103e.bindPopup(popup_64cd9b5a91f74beea87337ba005664d4)
+        ;
+
+        
+    
+    
+            var circle_marker_8a1f81def6a345f48c1033739921f84b = L.circleMarker(
+                [10.745970000000057, 106.64769000000007],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_a438a66ff73a4b3e8f3156d7c3c486e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6eb9024325148a790ac2422717ba83c = $(`<div id="html_f6eb9024325148a790ac2422717ba83c" style="width: 100.0%; height: 100.0%;">District 6 - Cluster 2</div>`)[0];
+            popup_a438a66ff73a4b3e8f3156d7c3c486e6.setContent(html_f6eb9024325148a790ac2422717ba83c);
+        
+
+        circle_marker_8a1f81def6a345f48c1033739921f84b.bindPopup(popup_a438a66ff73a4b3e8f3156d7c3c486e6)
+        ;
+
+        
+    
+    
+            var circle_marker_8e8c95d4e9ff4d1596a0dddd2139cda6 = L.circleMarker(
+                [10.850440000000049, 106.62731000000008],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_b428a49c52c94b91a804eb546f4f8d86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0061d86604a4b04a839f48bf6dc6711 = $(`<div id="html_b0061d86604a4b04a839f48bf6dc6711" style="width: 100.0%; height: 100.0%;">District 12 - Cluster 2</div>`)[0];
+            popup_b428a49c52c94b91a804eb546f4f8d86.setContent(html_b0061d86604a4b04a839f48bf6dc6711);
+        
+
+        circle_marker_8e8c95d4e9ff4d1596a0dddd2139cda6.bindPopup(popup_b428a49c52c94b91a804eb546f4f8d86)
+        ;
+
+        
+    
+    
+            var circle_marker_bd29f3b762164d1b8b69118f778827c8 = L.circleMarker(
+                [10.74771000000004, 106.66334000000006],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_314e81cfed89429bae382887a42cfad4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bd3813e1e39478ea7dcb4a7f209f92e = $(`<div id="html_8bd3813e1e39478ea7dcb4a7f209f92e" style="width: 100.0%; height: 100.0%;">District 8 - Cluster 1</div>`)[0];
+            popup_314e81cfed89429bae382887a42cfad4.setContent(html_8bd3813e1e39478ea7dcb4a7f209f92e);
+        
+
+        circle_marker_bd29f3b762164d1b8b69118f778827c8.bindPopup(popup_314e81cfed89429bae382887a42cfad4)
+        ;
+
+        
+    
+    
+            var circle_marker_40f337e81c5a4e38906cf01394731263 = L.circleMarker(
+                [10.78096000000005, 106.69911000000008],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_9a9e085c61c04d44b3a2ceedb59e635b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bbdc690b45c436cbf63173ad5198781 = $(`<div id="html_0bbdc690b45c436cbf63173ad5198781" style="width: 100.0%; height: 100.0%;">District 1 - Cluster 1</div>`)[0];
+            popup_9a9e085c61c04d44b3a2ceedb59e635b.setContent(html_0bbdc690b45c436cbf63173ad5198781);
+        
+
+        circle_marker_40f337e81c5a4e38906cf01394731263.bindPopup(popup_9a9e085c61c04d44b3a2ceedb59e635b)
+        ;
+
+        
+    
+    
+            var circle_marker_55ad6dca3b36452ab4dd3cc1d3809243 = L.circleMarker(
+                [10.833790000000022, 106.66556000000008],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_91bcde61e0384fd580645f76dbc9adec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6037bbc11af04bf2b22a3b33256de825 = $(`<div id="html_6037bbc11af04bf2b22a3b33256de825" style="width: 100.0%; height: 100.0%;">Go Vap District - Cluster 0</div>`)[0];
+            popup_91bcde61e0384fd580645f76dbc9adec.setContent(html_6037bbc11af04bf2b22a3b33256de825);
+        
+
+        circle_marker_55ad6dca3b36452ab4dd3cc1d3809243.bindPopup(popup_91bcde61e0384fd580645f76dbc9adec)
+        ;
+
+        
+    
+    
+            var circle_marker_c47eb46c560d412e804f378af60024d2 = L.circleMarker(
+                [10.888360000000034, 106.59640000000007],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_30dc70f6784548a1a8965dba89ef8dab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ada3a43a6444810a2859dccbea0e405 = $(`<div id="html_2ada3a43a6444810a2859dccbea0e405" style="width: 100.0%; height: 100.0%;">Hoc Mon District - Cluster 2</div>`)[0];
+            popup_30dc70f6784548a1a8965dba89ef8dab.setContent(html_2ada3a43a6444810a2859dccbea0e405);
+        
+
+        circle_marker_c47eb46c560d412e804f378af60024d2.bindPopup(popup_30dc70f6784548a1a8965dba89ef8dab)
+        ;
+
+        
+    
+    
+            var circle_marker_866337fdc464481b904a3ff5f6a07b57 = L.circleMarker(
+                [10.701530000000048, 106.73818000000006],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_6801d5a2de474dd3b253880ae60feee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06d692df4a6d473f8bb25955ae3ce9d5 = $(`<div id="html_06d692df4a6d473f8bb25955ae3ce9d5" style="width: 100.0%; height: 100.0%;">Nha Be District - Cluster 2</div>`)[0];
+            popup_6801d5a2de474dd3b253880ae60feee0.setContent(html_06d692df4a6d473f8bb25955ae3ce9d5);
+        
+
+        circle_marker_866337fdc464481b904a3ff5f6a07b57.bindPopup(popup_6801d5a2de474dd3b253880ae60feee0)
+        ;
+
+        
+    
+    
+            var circle_marker_4293ada3f7b84bbfb372a9bf0cac92cb = L.circleMarker(
+                [10.810520000000054, 106.70505000000009],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_a710c7e7b5cb4fd5b81cb9f97ef2d27a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c194c6890e84da78c9d81352674b961 = $(`<div id="html_1c194c6890e84da78c9d81352674b961" style="width: 100.0%; height: 100.0%;">Binh Thanh District - Cluster 0</div>`)[0];
+            popup_a710c7e7b5cb4fd5b81cb9f97ef2d27a.setContent(html_1c194c6890e84da78c9d81352674b961);
+        
+
+        circle_marker_4293ada3f7b84bbfb372a9bf0cac92cb.bindPopup(popup_a710c7e7b5cb4fd5b81cb9f97ef2d27a)
+        ;
+
+        
+    
+    
+            var circle_marker_4c6dfa5dde1b4a9b9beeb112799532e2 = L.circleMarker(
+                [10.73684000000003, 106.61448000000007],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_5dff0cd7840a4b9b998f062dcba8045f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a7ab2bfd83945d4a2bd544d84b039ae = $(`<div id="html_5a7ab2bfd83945d4a2bd544d84b039ae" style="width: 100.0%; height: 100.0%;">Binh Tan District - Cluster 3</div>`)[0];
+            popup_5dff0cd7840a4b9b998f062dcba8045f.setContent(html_5a7ab2bfd83945d4a2bd544d84b039ae);
+        
+
+        circle_marker_4c6dfa5dde1b4a9b9beeb112799532e2.bindPopup(popup_5dff0cd7840a4b9b998f062dcba8045f)
+        ;
+
+        
+    
+    
+            var circle_marker_34273cdbf4cf46f7a1e2b54e85f1f3ed = L.circleMarker(
+                [10.790069, 106.628524],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_224fe74f45cc4215bc2d6635b9dbce06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a953e91ba81643c9b4379f8f53ed48a7 = $(`<div id="html_a953e91ba81643c9b4379f8f53ed48a7" style="width: 100.0%; height: 100.0%;">Tan Phu District - Cluster 0</div>`)[0];
+            popup_224fe74f45cc4215bc2d6635b9dbce06.setContent(html_a953e91ba81643c9b4379f8f53ed48a7);
+        
+
+        circle_marker_34273cdbf4cf46f7a1e2b54e85f1f3ed.bindPopup(popup_224fe74f45cc4215bc2d6635b9dbce06)
+        ;
+
+        
+    
+    
+            var circle_marker_3cb67e75c78a4b10b85885ff310cdb6c = L.circleMarker(
+                [10.8509551, 106.7539414],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5279ad7e426e450d8f67e08b1463d6ab);
+        
+    
+        var popup_5f5d77f0f5da4d0996fe13013778345f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_821ffe3390494f1398522f9bafa44868 = $(`<div id="html_821ffe3390494f1398522f9bafa44868" style="width: 100.0%; height: 100.0%;">Thu Duc District - Cluster 2</div>`)[0];
+            popup_5f5d77f0f5da4d0996fe13013778345f.setContent(html_821ffe3390494f1398522f9bafa44868);
+        
+
+        circle_marker_3cb67e75c78a4b10b85885ff310cdb6c.bindPopup(popup_5f5d77f0f5da4d0996fe13013778345f)
+        ;
+
+        
+    
+</script>
